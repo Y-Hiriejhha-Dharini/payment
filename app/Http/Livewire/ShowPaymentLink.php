@@ -126,7 +126,7 @@ class ShowPaymentLink extends Component
 
     public function go_to_payment_view()
     {
-        return redirect()->to('/payment/payment_view');
+        return redirect()->to('/dashboard');
     }
 
     public function go_to_payment_link_create_view()
